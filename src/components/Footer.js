@@ -6,10 +6,10 @@ function Footer(){
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
-                    <a href="https://www.instagram.com/kael.cordeiro/" target="_blank"><FaInstagram /></a>
+                    <FaInstagram />
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/kael-cordeiro-2a4910296/" target="_blank"><FaLinkedin /></a>
+                    <FaLinkedin />
                 </li>
                 <li>
                     <FaDiscord />
