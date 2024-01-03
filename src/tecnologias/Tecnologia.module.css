@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto&family=Saira+Extra+Condensed:wght@200&display=swap');
+
+.escrita{
+    font-family: 'Roboto', sans-serif;
+    color: #ffbb33;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0px 10px 355px;
+}
+
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0px 5px 352px;
+}
+
+.tamanho_1{
+    color: #ff4500;
+}
+
+.tamanho_1 svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 508px;
+    margin-bottom: 5px;
+}
+
+.tamanho_2{
+    color: rgb(6, 121, 252);
+}
+
+.tamanho_2 svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 508px;
+    margin-bottom: 5px;
+}
+
+.tamanho_3{
+    color: rgba(255, 255, 0, 0.9);
+}
+
+.tamanho_3 svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 508px;
+    margin-bottom: 5px;
+}
+
+.tamanho_4{
+    color: rgb(0, 255, 255);
+}
+
+.tamanho_4 svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 508px;
+    margin-bottom: 5px;
+}
