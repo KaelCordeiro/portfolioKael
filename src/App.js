@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./home/Home";
 import Sobre from "./sobre/Sobre";
 import Tecnologia from "./tecnologias/Tecnologia"
+import Certificado  from "./certificados/Certificado";
     
 function App() {
       return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/tecnologias">
             <Tecnologia />
+          </Route>
+          <Route path="/certificados">
+            <Certificado />
           </Route>
           </Container>
         </Switch>
