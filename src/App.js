@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+
 import Container from "./components/Container";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
@@ -6,6 +7,7 @@ import Home from "./home/Home";
 import Sobre from "./sobre/Sobre";
 import Tecnologia from "./tecnologias/Tecnologia"
 import Certificado  from "./certificados/Certificado";
+import Contatos from "./contatos/Contatos";
     
 function App() {
       return (
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route path="/certificados">
             <Certificado />
+          </Route>
+          <Route path="/contato">
+            <Contatos />
           </Route>
           </Container>
         </Switch>
