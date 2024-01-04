@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
 import Home from "./home/Home";
 import Sobre from "./sobre/Sobre";
-import Tecnologia from "./tecnologias/Tecnologia"
+import Projetos from "./projetos/Projetos"
 import Certificado  from "./certificados/Certificado";
 import Contatos from "./contatos/Contatos";
     
@@ -21,8 +21,8 @@ function App() {
           <Route path="/sobre">
             <Sobre />
           </Route>
-          <Route path="/tecnologias">
-            <Tecnologia />
+          <Route path="/projeto">
+            <Projetos />
           </Route>
           <Route path="/certificados">
             <Certificado />
