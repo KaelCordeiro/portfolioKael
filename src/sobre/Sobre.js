@@ -7,10 +7,9 @@ function Sobre(){
         <section className={styles.container}>
             <h1>Sobre Mim</h1>
             <img src={foto} />
-            <p>Meu nome é Kael Lucas Pinheiro Cordeiro, tenho 25 anos e sou formado em Ciências da Computação
-               com o título de bacharel. Eu estou buscando o meu emprego para eu trabalhar na área de Desenvolvedor Web
-               do Front-End com o React. No ano passado, eu participei dos cursos e oportunidades para aprimorar o meu aprendizado.
-               E eu busquei os estudos com o React.
+            <p>Me chamo Kael Lucas Pinheiro Cordeiro, Bacharel em Ciências da Computação, tenho 25 anos, sou autista.
+               Atualmente estou procurando emprego para Desenvolvimento Web com React, motivado pelos estudos e cursos que realizei na área. 
+               Possuo nível de inglês intermediário, e gosto de trabalhar em equipe, me esforço para me comunicar e aprender sempre que possível.
             </p>
             <Skills />
         </section>
