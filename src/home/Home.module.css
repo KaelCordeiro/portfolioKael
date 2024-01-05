@@ -3,9 +3,11 @@
 .escrita{
     font-family: 'Roboto', sans-serif;
     background: rgba(0,0,0);
+    width: 600px;
     color: #ffbb33;
     font-size: 40px;
     font-weight: bold;
-    margin: 380px 0px 0px 340px;
+    text-align: center;
+    margin: 380px 0px 0px 370px;
 }
 

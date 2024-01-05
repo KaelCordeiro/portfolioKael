@@ -12,7 +12,8 @@
     color: #ffbb33;
     font-size: 50px;
     font-weight: bold;
-    margin: 100px 0px 0px 490px;
+    margin: 100px 0px 0px 0px;
+    margin-left: 555px;
 }
 
 .container p{
@@ -20,5 +21,5 @@
     color: rgb(0,0,0);
     font-size: 34px;
     text-align: left;
-    margin: -245px 0px 200px 290px;
+    margin: -245px 0px 200px 282px;
 }
