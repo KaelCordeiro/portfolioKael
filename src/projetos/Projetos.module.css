@@ -10,6 +10,14 @@
     margin-left: 515px;
 }
 
+.link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
 .subtitulo{
     font-family: 'Roboto', sans-serif;
     color: #000000;
@@ -20,8 +28,11 @@
 
 .linha{
     margin-bottom: 15px;
-    width: 2000px;
-    margin-left: -80px;
+}
+
+.linha_traco{
+    border-bottom: 4px dotted black;
+    margin-bottom: 15px;
 }
 
 .container_imagem {
@@ -30,10 +41,19 @@
 }
 
 .container_imagem img{
-    width: 280px;
-    height: 136px;
-    margin-left: 1080px;
-    margin-top: -140px;
+    width: 100%;
+    height: 100%;
+}
+
+.container_imagem1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_imagem1 img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
 }
 
 .container{
@@ -45,16 +65,27 @@
 .container h3{
     font-family: 'Roboto', sans-serif;
     color: #000000;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.container h4{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.linha_branco{
+    margin-bottom: 15px;
 }
 
 .container p{
     font-family: 'Roboto', sans-serif;
     color: #000000;
     font-size: 22px;
-    margin-bottom: 15px;
 }
 
 .container_1{
