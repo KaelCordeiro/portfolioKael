@@ -1,5 +1,5 @@
 import styles from "./Projetos.module.css"
-import { FaHtml5 } from "react-icons/fa"
+import { FaHtml5, FaReact } from "react-icons/fa"
 import { IoLogoCss3 } from "react-icons/io"
 import optimus from "../img/Optimus.jpg"
 import linkedin from "../img/Linkedin.jpg"
@@ -8,6 +8,10 @@ function Projetos(){
     return(
         <div>
             <p className={styles.escrita}>Projetos:</p>
+            <h3 className={styles.subtitulo}>Este Portfólio</h3>
+            <h4 className={styles.tech}>Tecnologias Utilizadas:</h4>
+            <div className={styles.container_react}><FaReact /></div>
+            <hr className={styles.linha}></hr>
             <h3 className={styles.subtitulo}>7 Days of Code</h3>
             <hr className={styles.linha}></hr>
             <div className={styles.container}>

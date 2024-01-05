@@ -18,6 +18,14 @@
     margin-left: 5px;
 }
 
+.tech{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .subtitulo{
     font-family: 'Roboto', sans-serif;
     color: #000000;
@@ -106,5 +114,14 @@
     width: 80px;
     height: 80px;
     margin-left: 80px;
+}
+
+.container_react{
+    color: rgb(1, 199, 248);
+}
+
+.container_react svg{
+    width: 80px;
+    height: 80px;
 }
 
