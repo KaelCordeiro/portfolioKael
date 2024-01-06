@@ -1,3 +1,3 @@
-Trabalhando com o meu portfólio usando a biblioteca React!
+Desenvolvimento do meu portfólio utilizando React, junto de outros conhecimentos que tenho.
 
-Eu espero que vcs curtem o meu projeto. Na barra de menu, as páginas vão ser: Home, Sobre, Projetos, Certificado, Contatos.
+Onde falo sobre meus projetos, minhas skills e sobre mim.
