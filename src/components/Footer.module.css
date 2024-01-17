@@ -5,13 +5,17 @@
     color: #fff;
     padding: 3em;
     text-align: center;
-    margin-top: 550px;
+    margin-top: 100px;
 }
 
 .social_list{
     display: flex;
     justify-content: center;
     list-style: none;
+}
+
+.social_list a{
+    text-decoration: none;
 }
 
 .social_list li{

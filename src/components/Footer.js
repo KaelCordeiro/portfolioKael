@@ -6,13 +6,13 @@ function Footer(){
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
-                    <FaInstagram />
+                    <a href="https://www.instagram.com/kael.cordeiro/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                 </li>
                 <li>
-                    <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/kael-cordeiro-2a4910296/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                 </li>
                 <li>
-                    <FaDiscord />
+                    <a href="https://discord.com/kael_cordeiro" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
                 </li>
             </ul>
             <p className={styles.telefone}>
