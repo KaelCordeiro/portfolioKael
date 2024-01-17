@@ -1,7 +1,55 @@
-.container{
-    width: 550px;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 400px;
-    margin-bottom: 30px;
+
+.conteudo{
+    position: relative;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 320px;
+    margin-top: 150px;
 }
+
+
+.slides{
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: transform 0.5s ease;
+}
+
+.slides img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prev, .next{
+    position: absolute;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease; 
+}
+
+.prev:hover, .next:hover{
+    color: rgb(11, 11, 85);
+}
+
+.prev{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: -40px;
+}
+
+.next{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 690px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
