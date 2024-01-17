@@ -15,9 +15,9 @@ function Projetos(){
             <h3 className={styles.subtitulo}>7 Days of Code</h3>
             <hr className={styles.linha}></hr>
             <div className={styles.container}>
-                <h3>Optimus Tech:</h3>
-                <p>Projeto de página para empresa fictícia OptimusTech, onde mostra vagas abertas para</p>
-                <p className={styles.linha_branco}>Design e Desenvolvimento de Software, 100% remoto.</p>
+                <h3 className={styles.centralizar}>Optimus Tech:</h3>
+                <p className={styles.centralizar}>Projeto de página para empresa fictícia OptimusTech, onde mostra vagas abertas para</p>
+                <p className={styles.centralizar}>Design e Desenvolvimento de Software, 100% remoto.</p>
                 <div className={styles.container_imagem}>
                     <img src={optimus} />
                 </div>
@@ -30,8 +30,8 @@ function Projetos(){
             </div>
             <div className={styles.linha_traco}></div>
             <div className={styles.container}>
-                <h3>Clone Linkedin:</h3>
-                <p className={styles.linha_branco}>Projeto de clone da página perfil do Linkedin.</p>
+                <h3 className={styles.centralizar}>Clone Linkedin:</h3>
+                <p className={styles.centralizar}>Projeto de clone da página perfil do Linkedin.</p>
                 <div className={styles.container_imagem1}>
                     <img src={linkedin} />
                 </div>
