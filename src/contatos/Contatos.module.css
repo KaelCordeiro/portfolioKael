@@ -6,20 +6,20 @@
     align-items: center;
 }
 
+.centralizar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
 .container h3{
     font-family: 'Roboto', sans-serif;
     color: #ffbb33;
     font-size: 40px;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.container p{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-size: 24px;
-    font-weight: 800;
+    margin-bottom: 50px;
 }
 
 .container_1 a{
@@ -29,7 +29,6 @@
 .container_1 svg{
     width: 150px;
     height: 150px;
-    margin-bottom: 15px;
     justify-content: center;
 }
 
@@ -40,7 +39,7 @@
 .container_2 svg{
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .container_3 a{
@@ -50,7 +49,7 @@
 .container_3 svg{
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .container_4 a{
@@ -60,5 +59,4 @@
 .container_4 svg{
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
 }
